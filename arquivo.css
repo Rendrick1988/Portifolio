@@ -1,0 +1,114 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* TOPO COM FOTO */
+header {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #61dafb;
+  margin-bottom: 1rem;
+}
+
+.Perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* MENU DE NAVEGAÇÃO */
+nav .menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+nav .menu a {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* CONTEÚDO PRINCIPAL COM FLEX */
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1.5rem;
+}
+
+/* SEÇÕES ORGANIZADAS */
+section {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+.Curiosidades {
+  display:flexbox;
+  flex-direction: column;        
+  background: white;
+  gap: 2rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+ }
+
+/* HABILIDADES EM LINHA */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills li {
+  background: #61dafb;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+/* RODAPÉ */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #282c34;
+  color: white;
+  margin-top: 2rem;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+  nav .menu {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .skills {
+    flex-direction: column;
+  }
+}
+
+
