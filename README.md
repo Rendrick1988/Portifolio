@@ -15,7 +15,6 @@ O objetivo é praticar a criação de páginas estáticas, organização de past
 ## 📂 Estrutura do projeto
 - `site.html` → Página principal do site   
 - `arquivo.css` → Arquivo de estilos da pasta `site_simples`  
-- `style.css` → Arquivo de estilos principal  
 - `patrick.jpg` → Imagens usadas no projeto  
 - `README.md` → Documentação do projeto  
 
